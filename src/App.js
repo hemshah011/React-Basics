@@ -7,12 +7,14 @@ import React from 'react'
 // import ClassEvent from './components/ClassEvent'
 // import EventBind from './components/EventBind'
 // import ParentComponent from './components/ParentComponent'
-import UserGreeting from './components/UserGreeting'
+// import UserGreeting from './components/UserGreeting'
+import PersonList from './components/PersonList'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserGreeting />
+        <PersonList/>
+        {/* <UserGreeting /> */}
         {/* <ParentComponent/> */}
         {/* <EventBind/>
         <FunctionEvent/>
