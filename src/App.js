@@ -3,16 +3,20 @@ import React from 'react'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
 // import Counter from './components/Counter'
-import FunctionEvent from './components/FunctionEvent'
-import ClassEvent from './components/ClassEvent'
-import EventBind from './components/EventBind'
+// import FunctionEvent from './components/FunctionEvent'
+// import ClassEvent from './components/ClassEvent'
+// import EventBind from './components/EventBind'
+// import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <EventBind/>
+        <UserGreeting />
+        {/* <ParentComponent/> */}
+        {/* <EventBind/>
         <FunctionEvent/>
-        <ClassEvent />
+        <ClassEvent /> */}
         {/* <Greet name="Hem">What up periscope</Greet> */}
         {/* <Greet name="Prem">I am good</Greet>
         <Greet name="Game">Your boy Jim here</Greet>
