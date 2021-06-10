@@ -9,14 +9,16 @@ import React from 'react'
 // import ParentComponent from './components/ParentComponent'
 // import UserGreeting from './components/UserGreeting'
 // import PersonList from './components/PersonList'
-import StyleSheets from './components/StyleSheets'
-import Modules from './components/Modules'
+// import StyleSheets from './components/StyleSheets'
+// import Modules from './components/Modules'
+import DemoForms from './components/DemoForms'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <StyleSheets/>
-        <Modules/>
+        <DemoForms/>
+        {/* <StyleSheets/>
+        <Modules/> */}
         {/* <PersonList/> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent/> */}
