@@ -1,13 +1,14 @@
 import React from 'react'
-const Greet = (props) => {
-    console.log(props.name);
+const Greet = ({name,children}) => {
+    //const {name,children}=props
+    console.log({name});
     return (
         <>
             <h1>
-                Hello {props.name} !
+                Hello {name} !
             </h1>
             <p>
-                Hello {props.children} !
+                Hello {children} !
             </p>
         </>
     )
