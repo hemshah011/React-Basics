@@ -8,12 +8,16 @@ import React from 'react'
 // import EventBind from './components/EventBind'
 // import ParentComponent from './components/ParentComponent'
 // import UserGreeting from './components/UserGreeting'
-import PersonList from './components/PersonList'
+// import PersonList from './components/PersonList'
+import StyleSheets from './components/StyleSheets'
+import Modules from './components/Modules'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PersonList/>
+        <StyleSheets/>
+        <Modules/>
+        {/* <PersonList/> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent/> */}
         {/* <EventBind/>
