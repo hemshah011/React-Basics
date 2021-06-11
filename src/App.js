@@ -11,29 +11,31 @@ import React from 'react'
 // import PersonList from './components/PersonList'
 // import StyleSheets from './components/StyleSheets'
 // import Modules from './components/Modules'
-import DemoForms from './components/DemoForms'
+// import DemoForms from './components/DemoForms'
+import ParentLifeCycle from './components/ParentLifeCycle'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DemoForms/>
+        <ParentLifeCycle/>
+        {/* <DemoForms/> */}
         {/* <StyleSheets/>
-        <Modules/> */}
-        {/* <PersonList/> */}
-        {/* <UserGreeting /> */}
-        {/* <ParentComponent/> */}
-        {/* <EventBind/>
+        <Modules/>
+        <PersonList/>
+        <UserGreeting />
+        <ParentComponent/>
+        <EventBind/>
         <FunctionEvent/>
-        <ClassEvent /> */}
-        {/* <Greet name="Hem">What up periscope</Greet> */}
-        {/* <Greet name="Prem">I am good</Greet>
+        <ClassEvent />
+        <Greet name="Hem">What up periscope</Greet>
+        <Greet name="Prem">I am good</Greet>
         <Greet name="Game">Your boy Jim here</Greet>
         <Welcome name="Hem">What up periscope</Welcome>
-        <Welcome name="Prem">I am good</Welcome> */}
-        {/* <Welcome name="Game">Your boy Jim here</Welcome>
+        <Welcome name="Prem">I am good</Welcome>
+        <Welcome name="Game">Your boy Jim here</Welcome>
         <Counter/>
-        <Welcome /> */}
-        {/* <Hello/> */}
+        <Welcome />
+        <Hello/> */}
       </header>
     </div>
   );
