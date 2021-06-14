@@ -7,12 +7,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CounterRender render= {(count,incrementCount)=>(
-          <ClickCounter2 count={count} incrementCount={incrementCount}/>
-        )}/>
-        <CounterRender render= {(count,incrementCount)=>(
-          <HoverCounter2 count={count} incrementCount={incrementCount}/>
-        )}/>
+        <CounterRender>
+          {(count, incrementCount) => (
+            <ClickCounter2 count={count} incrementCount={incrementCount} />
+          )}
+        </CounterRender>
+        <CounterRender>
+          {(count, incrementCount) => (
+            <HoverCounter2 count={count} incrementCount={incrementCount} />
+          )}
+        </CounterRender>
       </header>
     </div>
   );
