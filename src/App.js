@@ -1,22 +1,14 @@
 import React from 'react'
-import ClickCounter2 from './components/ClickCounter2';
-import CounterRender from './components/CounterRender';
-import HoverCounter2 from './components/HoverCounter2.js';
+import Grandparent from './components/Grandparent'
+import {UserProvider} from './components/UserContext'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CounterRender>
-          {(count, incrementCount) => (
-            <ClickCounter2 count={count} incrementCount={incrementCount} />
-          )}
-        </CounterRender>
-        <CounterRender>
-          {(count, incrementCount) => (
-            <HoverCounter2 count={count} incrementCount={incrementCount} />
-          )}
-        </CounterRender>
+        <UserProvider value="Hem">
+          <Grandparent />
+        </UserProvider>
       </header>
     </div>
   );
