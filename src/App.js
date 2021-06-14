@@ -1,14 +1,10 @@
 import React from 'react'
-import Grandparent from './components/Grandparent'
-import {UserProvider} from './components/UserContext'
-
+import PostList from './components/PostList';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserProvider value="Hem">
-          <Grandparent />
-        </UserProvider>
+        <PostList/>
       </header>
     </div>
   );
