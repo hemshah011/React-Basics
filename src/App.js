@@ -1,12 +1,18 @@
 import React from 'react'
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
+import ClickCounter2 from './components/ClickCounter2';
+import CounterRender from './components/CounterRender';
+import HoverCounter2 from './components/HoverCounter2.js';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ClickCounter name='Hem'/>
-        <HoverCounter />
+        <CounterRender render= {(count,incrementCount)=>(
+          <ClickCounter2 count={count} incrementCount={incrementCount}/>
+        )}/>
+        <CounterRender render= {(count,incrementCount)=>(
+          <HoverCounter2 count={count} incrementCount={incrementCount}/>
+        )}/>
       </header>
     </div>
   );
