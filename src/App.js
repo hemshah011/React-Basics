@@ -1,10 +1,10 @@
 import React from 'react'
-import PostList from './components/PostList';
+import PostForm from './components/PostForm'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PostList/>
+      <PostForm/>
       </header>
     </div>
   );
