@@ -1,24 +1,15 @@
 import React from 'react'
-import ErrorBoundary from './components/ErrorBoundary';
-
-import Villian from './components/Villian'
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ErrorBoundary>
-          <Villian name="Batman" />
-        </ErrorBoundary>
+        <ClickCounter name='Hem'/>
+        <HoverCounter />
       </header>
     </div>
   );
 }
-// class App extends React.Component{
-//   render()
-//   {
-//     return <h1>
-//       Hello from a class
-//     </h1>
-//   }
-// }
+
 export default App;
